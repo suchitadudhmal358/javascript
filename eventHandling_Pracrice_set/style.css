@@ -1,0 +1,8 @@
+.bulbContainer {
+    height : 200px;
+    width : 200px;
+}
+
+.bulb {
+  background-color: yellow;
+}
