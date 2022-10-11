@@ -59,12 +59,18 @@ let arOfJokes = [
   “Really?” replies the grasshopper. “There’s a drink named Stan?”`,
 ];
 
-btn.addEventListener("click", function (e) {
+// btn.addEventListener("click", function (e) {
+//   let i = Math.floor(Math.random() * 10);
+
+//   let getJoke = arOfJokes[i];
+
+//   joke.innerHTML = getJoke;
+// });
+
+setInterval(function () {
   let i = Math.floor(Math.random() * 10);
 
   let getJoke = arOfJokes[i];
 
   joke.innerHTML = getJoke;
-});
-//   let getJoke = a[i];
-//   joke.innerHTML = getJoke;
+}, 2000);
